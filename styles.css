@@ -1,0 +1,25 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  background-color: #2195f383;
+  padding: 10px;
+  justify-content: center;
+}
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.winnerMessage {
+  height: 30px;
+  color: red;
+  text-align: center;
+
+  font-size: 50px;
+}
