@@ -103,6 +103,9 @@ function tictac(e) {
     );
     computerGuess.textContent = '0';
     checkArrayHuman();
+    if (winnerDiv.textContent === 'YOU WON') {
+      return;
+    }
     checkArrayComp();
     cellsArray.splice(
       cellsArray.indexOf(
